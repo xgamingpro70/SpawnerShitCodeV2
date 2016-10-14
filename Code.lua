@@ -15,7 +15,6 @@ local function SpawnerCables()
 	rs.setBundleOutput("back",colors.black)
 	else 
 	print("You are dumb")
-	terminal.redirect(mon1)
 end
 
 local function spawnerStatus()
