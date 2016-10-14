@@ -15,7 +15,7 @@ function SpawnerCables()
 
 	input = tonumber( read() )
 
-	debug.log( input ) -- Debug line
+
 	debug.log( rs.setBundledOutput("back", colors.orange) )-- Debug line
 	
 	if input == 1 then
