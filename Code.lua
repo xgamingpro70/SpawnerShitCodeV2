@@ -16,7 +16,7 @@ local function SpawnerCables()
 	input = tonumber( read() )
 	
 	if input == 1 then
-	rs.setBundleOutput("back",colors.white)
+	write("Fuck You")
 	elseif input == 2 then
 	rs.setBundleOutput("back",colors.orange)
 	elseif input == 3 then
