@@ -6,7 +6,7 @@ while true do
 	input = read()
 	
 	if input == "1" then
-	rs.setBundleOutput("back",colors.white)
+	rs.setBundleOutput("back",2)
 	elseif input == "2" then
 	rs.setBundleOutput("back",colors.orange)
 	elseif input == "3" then
