@@ -2,6 +2,8 @@ mon = peripheral.wrap("top")
 
 
 local function SpawnerCables()	
+	
+	spawnerStatus()
 
 	input = read()
 	
