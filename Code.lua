@@ -1,19 +1,27 @@
 mon = peripheral.wrap("top")
 
+local mobs = {"Wither Skeleton","Enderman","Blaze","Zombie Pigman","Not Bound","Not Bound","Not Bound","Not Bound"}
+
+local function listSpawners()
+	for i=1,#mobs do
+	    print( i .. " = " .. mobs[i] )
+	end
+end
 
 local function SpawnerCables()	
 	
 	write("Enter Spawner #: ")
+	listSpawners()
 
-	input = read()
+	input = tonumber( read() )
 	
-	if input == "1" then
+	if input == 1 then
 	rs.setBundleOutput("back",colors.white)
-	elseif input == "2" then
+	elseif input == 2 then
 	rs.setBundleOutput("back",colors.orange)
-	elseif input == "3" then
+	elseif input == 3 then
 	rs.setBundleOutput("back",colors.yellow)
-	elseif input == "4" then
+	elseif input == 4 then
 	rs.setBundleOutput("back",colors.black)
 	else 
 	print("You are dumb")
@@ -28,7 +36,6 @@ local function spawnerStatus()
         else
             local status = "Off"
         end
-	local mobs = {"Wither Skeleton","Enderman","Blaze","Zombie Pigman","Not Bound","Not Bound","Not Bound","Not Bound"}
 	mon.clear()
 	mon.setCursorPos(1,1)
     for i=1,#mobs do
@@ -36,7 +43,6 @@ local function spawnerStatus()
         print( i .. " = " .. mobs[i] )
 	term.redirect(mon1)
     end
-	
 end
 
 while true do
