@@ -15,9 +15,9 @@ function SpawnerCables()
 
 	input = tonumber( read() )
 
-	print("Debug = " .. input) -- Debug line
+	debug.log( input ) -- Debug line
+	debug.log( rs.setBundledOutput("back", colors.orange) )-- Debug line
 	
-	if input == 1 then
 	print("Fuck You")
 	elseif input == 2 then
 	rs.setBundledOutput("back",(colors.orange) )
