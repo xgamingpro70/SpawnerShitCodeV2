@@ -5,8 +5,10 @@ while true do
 
 	input = read()
 	
+	print("Enter Spawner# ")
+	
 	if input == "1" then
-	rs.setBundleOutput("back",2)
+	rs.setBundledOutput("back",2)
 	elseif input == "2" then
 	rs.setBundleOutput("back",colors.orange)
 	elseif input == "3" then
