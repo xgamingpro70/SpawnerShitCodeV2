@@ -18,11 +18,11 @@ local function SpawnerCables()
 	if input == 1 then
 	write("Fuck You")
 	elseif input == 2 then
-	rs.setBundleOutput("back",colors.orange)
+	rs.setBundleOutput("back",colors[orange])
 	elseif input == 3 then
-	rs.setBundleOutput("back",colors.yellow)
+	rs.setBundleOutput("back",colors[yellow])
 	elseif input == 4 then
-	rs.setBundleOutput("back",colors.black)
+	rs.setBundleOutput("back",colors[black])
 	else 
 	print("You are dumb")
 	end
