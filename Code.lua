@@ -14,6 +14,8 @@ function SpawnerCables()
 	listSpawners()
 
 	input = tonumber( read() )
+
+	print("Debug = " .. input) -- Debug line
 	
 	if input == 1 then
 	write("Fuck You")
