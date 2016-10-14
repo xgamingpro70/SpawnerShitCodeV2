@@ -8,13 +8,13 @@ local function SpawnerCables()
 	input = read()
 	
 	if input == "1" then
-	rs.setBundleOutput("back",1)
+	rs.setBundledOutput("back",1)
 	elseif input == "2" then
-	rs.setBundleOutput("back",2)
+	rs.setBundledOutput("back",2)
 	elseif input == "3" then
-	rs.setBundleOutput("back",5)
+	rs.setBundledOutput("back",5)
 	elseif input == "4" then
-	rs.setBundleOutput("back",16)
+	rs.setBundledOutput("back",16)
 	else 
 	print("You are dumb")
 	end
