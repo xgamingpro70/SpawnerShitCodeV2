@@ -14,9 +14,6 @@ function SpawnerCables()
 	listSpawners()
 
 	input = tonumber( read() )
-
-
-	debug.log( rs.setBundledOutput("back", colors.orange) )-- Debug line
 	
 	if input == 1 then
 	print("Fuck You")
