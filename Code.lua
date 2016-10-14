@@ -20,11 +20,11 @@ function SpawnerCables()
 	if input == 1 then
 	print("Fuck You")
 	elseif input == 2 then
-	rs.setBundledOutput("back",colors.orange)
+	rs.setBundledOutput("back",(colors.orange) )
 	elseif input == 3 then
-	rs.setBundledOutput("back",colors.yellow)
+	rs.setBundledOutput("back",(colors.yellow) )
 	elseif input == 4 then
-	rs.setBundledOutput("back",colors.black)
+	rs.setBundledOutput("back",(colors.black) )
 	else 
 	print("You are dumb")
 	end
@@ -51,5 +51,3 @@ while true do
 SpawnerCables()
 spawnerStatus()
 end
-
-
