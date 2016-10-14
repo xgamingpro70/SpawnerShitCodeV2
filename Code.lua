@@ -27,14 +27,14 @@ local function spawnerStatus()
             local status = "Off"
         end
 	local mobs = {"Wither Skeleton","Enderman","Blaze","Zombie Pigman","Not Bound","Not Bound","Not Bound","Not Bound"}
+	mon.clear()
+	mon.setCursorPos(1,1)
     for i=1,#mobs do
 	local mon1 = term.redirect(mon)
-	term.clear()
-	term.setCursorPos(1,1)
         print( i .. " = " .. mobs[i] )
-
-    end
 	term.redirect(mon1)
+    end
+	
 end
 
 while true do
