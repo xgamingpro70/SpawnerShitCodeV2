@@ -10,7 +10,7 @@ end
 
 local function SpawnerCables()	
 	
-	write("Enter Spawner #: ")
+	write("Enter Spawner #: \n")
 	listSpawners()
 
 	input = tonumber( read() )
