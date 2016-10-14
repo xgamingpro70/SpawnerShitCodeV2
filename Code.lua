@@ -18,7 +18,7 @@ function SpawnerCables()
 	print("Debug = " .. input) -- Debug line
 	
 	if input == 1 then
-	write("Fuck You")
+	print("Fuck You")
 	elseif input == 2 then
 	rs.setBundleOutput("back",colors.orange)
 	elseif input == 3 then
