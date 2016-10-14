@@ -15,5 +15,4 @@ end
  
 while true do
 SpawnerCables
-spawnerStatus
 end
