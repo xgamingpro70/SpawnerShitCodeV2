@@ -38,8 +38,8 @@ local function spawnerStatus()
 end
 
 while true do
-SpawnerCables
-spawnerStatus
+SpawnerCables()
+spawnerStatus()
 end
 
 
