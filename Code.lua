@@ -3,7 +3,7 @@ mon = peripheral.wrap("top")
 
 local function SpawnerCables()	
 	
-	spawnerStatus()
+	write("Enter Spawner #: ")
 
 	input = read()
 	
